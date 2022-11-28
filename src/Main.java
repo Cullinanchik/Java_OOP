@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 //        Human human_1 = new Human();
@@ -28,9 +30,18 @@ public class Main {
 //        dog.speed = 5;
 //        dog.run();
 
-        Rectangle rectangle = new Rectangle();
-        rectangle.setRect(20,20);
-        System.out.println(rectangle.getArea());
+//        Rectangle rectangle = new Rectangle();
+//        rectangle.setRect(20,20);
+//        System.out.println(rectangle.getArea());
+
+//        Monster monster_1 = new Monster(5,5,5);
+//        monster_1.voice();
+//        monster_1.voice(5);
+//        monster_1.voice(4, "JAVA лучше котлина!!!");
+
+//        Box currentBox = new Box(30);
+//        Box anotherBox = new Box(20);
+//        System.out.println(currentBox.compare(anotherBox));
 
     }
 
