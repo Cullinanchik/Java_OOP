@@ -1,3 +1,5 @@
+package box;
+
 public class Box {
     private double length;
     private double width;
@@ -47,7 +49,11 @@ public class Box {
         this.height = height;
     }
 
-    private double getVolume() {
+    protected double getVolume() {
         return length * width * height;
+    }
+
+    public void ShowInfo() {
+        System.out.println("Длина коробки: " + length + " Высота коробки: " + height + " Ширина коробки: " + width);
     }
 }

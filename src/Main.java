@@ -1,4 +1,7 @@
-import java.sql.SQLOutput;
+import inheritance.Cat;
+import inheritance.Lion;
+
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -39,9 +42,44 @@ public class Main {
 //        monster_1.voice(5);
 //        monster_1.voice(4, "JAVA лучше котлина!!!");
 
-//        Box currentBox = new Box(30);
-//        Box anotherBox = new Box(20);
+//        box.Box currentBox = new box.Box(30);
+//        box.Box anotherBox = new box.Box(20);
 //        System.out.println(currentBox.compare(anotherBox));
+
+
+//        ArrayList<String> names = new ArrayList<>();
+//        names.add("Ilya");
+//        names.add("Andrey");
+//        names.add("Evgeniy");
+//        names.add("Hook");
+//        names.add("Vladislav");
+//
+//        ArrayList<Integer> ints = new ArrayList<>();
+//        for (int i = 0; i < 6; i++) {
+//            ints.add(i);
+//        }
+//
+//        ArrayList<String> result = new ArrayList<>();
+//        for (int i = 0; i < names.size(); i++) {
+//            result.add(ints.get(i) + " - " + names.get(i));
+//        }
+//        for (String output:result) {
+//            System.out.println(output);
+//        }
+
+//        Cat cat = new Cat();
+//        Lion lion = new Lion();
+//
+//        cat.eat();
+//        lion.eat();
+
+
+        Random random = new Random();
+        for (int i = 0; i < 100; i++) {
+            int a = random.nextInt(1,7);
+            String result = String.format("Ваше число: %s", a);
+            System.out.println(result);
+        }
 
     }
 
